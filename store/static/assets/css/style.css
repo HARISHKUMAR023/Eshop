@@ -131,20 +131,20 @@ h1 {
   color: white;
 }
 .btn-primary:hover {
-  background-color: rgb(217, 245, 6);
+  background-color: rgb(244, 245, 240);
 }
 .btn-secon {
-  border: 2px solid #f4fc07;
+  border: 2px solid #fdfdf7;
   background-color: white;
-  color: #f4fc07;
+  color: #fdfdf7;
 }
 .btn-secon:hover {
-  background-color: rgb(217, 245, 6);
+  background-color: rgb(244, 245, 240);
   color: white;
 }
 .btn-dounloed {
   border: 2px solid white;
-  background-color: #f4fc07;
+  background-color: #fdfdf7;
   color: white;
 }
 .btn-dounloed:hover {
@@ -155,7 +155,7 @@ h1 {
 }
 
 .btn-success:hover {
-  background-color: rgb(217, 245, 6);
+  background-color: rgb(244, 245, 240);
 }
 
 .form-control {
@@ -167,7 +167,7 @@ h1 {
   outline: none;
 }
 .form-control:focus {
-  border: 2px solid #f4fc07;
+  border: 2px solid #fdfdf7;
 }
 
 textarea {
