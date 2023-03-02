@@ -1,39 +1,99 @@
 
-<h1>Ecommerce website</h1>
-<hr><p>This a Ecommerce web app using Django</p><h2>General Information</h2>
-<hr><ul>
-<li>This a Ecommerce web app</li>
-</ul><ul>
-<li>i have add some  User authentication</li>
-</ul><ul>
-<li>it is website u can buy tech productes online</li>
-</ul><h2>Technologies Used</h2>
-<hr><ul>
-<li>HTML</li>
-</ul><ul>
-<li>CSS</li>
-</ul><ul>
-<li>JavaScript</li>
-</ul><ul>
-<li>Django</li>
-</ul><ul>
-<li>MYSQL</li>
-</ul><ul>
-<li>Bootstrap</li>
-</ul><ul>
-<li>Font Awesome</li>
-</ul><h2>Screenshots</h2>
-<hr><p><img src="../static/assets/images/project.png" alt=""></p><h2>Setup</h2>
-<hr><p>django,
-bootstrap</p><h5>Steps</h5><ul>
-<li>unzip the folder or github repo</li>
-</ul><ul>
-<li>pip install -r requirements.txt</li>
-</ul><ul>
-<li>IN command promit : python manage.py runserver</li>
-</ul><ul>
-<li>visit the url : http://127.0.0.1:8000/</li>
-</ul><h2>Usage</h2>
-<hr><p>Any one can buy a product online</p><h2>Project Status</h2>
-<hr><p>completed</p><h2>Contact</h2>
-<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/harishkumar023/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/HARISHKUMAR023"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+## E-Commerce
+## Appendix
+
+This a ecom wesite we build using django
+
+
+## Authors
+
+- [HARISHKUMAR](https://github.com/HARISHKUMAR023)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  python manage.py runserver
+
+```
+
+
+## FAQ
+
+#### To add new product to this website
+
+/admin url,
+ USERNAME : admin,
+ PASSWORD : admin
+
+
+
+
+## Features
+
+- Live previews
+- Fullscreen mode
+- Responsive for mobile
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at harishkumarsp023@gmail.com
+
+
+## Demo
+
+
+## 🚀 About Me
+
+* 🌍  I'm based in INDIA
+* 🖥️  See my portfolio at [Personal website](http://harishkumar023.github.io/Harishkumar/)
+* ✉️  You can contact me at [harishkumarsp023@gmail.com](mailto:harishkumarsp023@gmail.com)
+* 🧠  I'm learning Ethical-Hacking
+* 🤝  I'm open to collaborating on Tech project
+
+
+# Hi, I'm Harishkumr N ! 👋
+
+Student and Tech leaner
+-----------------------
+
+Good in design and integration with intuitive problem-solving skills. Proficient in WEB DEVELOPMENT, PYTHON, JAVASCRIPT, cyber security,and more technology Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an a reputed firm driven by technology.
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https:harishkumar.software)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harishkumar023/)
+
+
+## 🛠 Skills
+Javascript, HTML, CSS,django,linux,web development,node js,sass,
+python.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/HARISHKUMAR023/Eshop
+```
+
+Go to the project directory
+
+
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the server
+
+```bash
+  python manage.py runserver
+```
+
