@@ -4,24 +4,27 @@
 
 .btn {
     padding: 0.8rem 1.6rem;
-    border-radius: 6px;
+    border-radius: 10px;
     line-height: 1;
     font-size: 0.9rem;
     font-weight: 600;
+    width: 290px;
     cursor: pointer;
     border: none;
+
     outline: none;
 
     @include mixc.responsive(xs) {
         margin-bottom: 15px;
-
+        padding: 0.8rem 0.5rem;
+        width: 230px
     }
 
 
 
     &-primary {
         @extend .btn;
-        background-color: green;
+        background-color: var.$btn-color !important;
         color: white;
 
 
@@ -69,4 +72,9 @@
 
 .btn-success:hover {
     background-color: funs.theme-color("primary-hover");
+}
+
+.list-group-item:active {
+    background-color: #000000 !important;
+    border-color: red;
 }

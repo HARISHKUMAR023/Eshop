@@ -1,14 +1,15 @@
-@use "../abstract/variable"as var;
-@use "../abstract/function"as func;
-@use "../abstract/mixiens"as mixc;
+@use "../abstract/variable" as var;
+@use "../abstract/function" as func;
+@use "../abstract/mixiens" as mixc;
 
 .about-area {
     padding: 8rem 20rem;
-    background-color: func.theme-color();
-    display: flex;
-    justify-content: center;
+    background-color: var.$color-navfooter;
+    // display: flex;
+    // justify-content: center;
     align-items: center;
     margin-top: 11rem;
+    color: white;
 
     @include mixc.responsive(xs) {
         //css
@@ -30,6 +31,7 @@
         h2 {
             font-size: 3rem;
             margin-bottom: 10px;
+            font-weight: 600;
 
             @include mixc.responsive(xs) {
                 //css
@@ -43,6 +45,7 @@
             line-height: 2;
             color: #edd9de;
             font-size: 1.1rem;
+            font-weight: 400;
 
             @include mixc.responsive(xs) {
                 //css

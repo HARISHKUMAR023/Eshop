@@ -2,11 +2,80 @@
 
 
 .main-area {
-    width: 100%;
-    height: 900px;
-    background-image: url('../images/sharon-pittaway-KUZnfk-2DSQ-unsplash.jpg');
+
+    // width: 100%;
+    // height: 900px;
+
+    &_content {
+        // background-color: red !important;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+
+        @include mixc.responsive(xs) {
+            //css
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+            flex-wrap: wrap;
+
+        }
+
+        &-text {
+            color: white;
+
+            &>.find {
+                @include mixc.responsive(xs) {
+                    //css
+                    text-align: center;
+
+                }
+            }
+
+            &>h1 {
+                font-size: 80px;
+                font-weight: 800;
+
+                @include mixc.responsive(xs) {
+                    //css
+                    padding-top: 50px;
+                    font-size: 30px;
+                    text-align: center;
+
+                }
+            }
+
+            &>p {
+                font-weight: 600;
+            }
+        }
+    }
+
+    background-image: linear-gradient(to right top, #219b21, #4ba41e, #5ee106, #a0d618, #f8ee07);
     background-repeat: no-repeat;
-    background-size: cover;
+    // background-size: cover;
+
+    &-images {
+
+
+        &>p {
+            margin-bottom: 0px;
+        }
+
+        &-img {
+            width: 500px;
+            height: 500px;
+
+            @include mixc.responsive(xs) {
+                //css
+                width: 300px;
+                height: 300px;
+
+            }
+        }
+
+    }
 
     &>h1 {
         color: aliceblue;
@@ -28,4 +97,12 @@
 
 .b1 {
     margin-top: 40px;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.icon:hover {
+    color: rgb(218, 7, 7);
 }

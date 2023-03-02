@@ -1,9 +1,39 @@
-# E-commerceWebsite
-This project deals with developing a Virtual website ‘E-commerce Website’. It provides the user with a list of the various products available for purchase in the store. For the convenience of online shopping, a shopping cart is provided to the user. After the selection of the goods, it is sent for the order confirmation process. The system is implemented using Python's web framework Django.
 
-1. Clone this repository into a folder on your computer
-2. Download Python
-3. Open terminal inside the folder with code.
-4. Type pip install -r requirements.txt in the terminal window to install all the requirements to run the app.
-5. Type python manage.py runserver to start a localhost server for the app.
-6. The API is started and now you can use the API routes to give requests.
+<h1>Ecommerce website</h1>
+<hr><p>This a Ecommerce web app using Django</p><h2>General Information</h2>
+<hr><ul>
+<li>This a Ecommerce web app</li>
+</ul><ul>
+<li>i have add some  User authentication</li>
+</ul><ul>
+<li>it is website u can buy tech productes online</li>
+</ul><h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>Django</li>
+</ul><ul>
+<li>MYSQL</li>
+</ul><ul>
+<li>Bootstrap</li>
+</ul><ul>
+<li>Font Awesome</li>
+</ul><h2>Screenshots</h2>
+<hr><p><img src="../static/assets/images/project.png" alt=""></p><h2>Setup</h2>
+<hr><p>django,
+bootstrap</p><h5>Steps</h5><ul>
+<li>unzip the folder or github repo</li>
+</ul><ul>
+<li>pip install -r requirements.txt</li>
+</ul><ul>
+<li>IN command promit : python manage.py runserver</li>
+</ul><ul>
+<li>visit the url : http://127.0.0.1:8000/</li>
+</ul><h2>Usage</h2>
+<hr><p>Any one can buy a product online</p><h2>Project Status</h2>
+<hr><p>completed</p><h2>Contact</h2>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/harishkumar023/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/HARISHKUMAR023"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>

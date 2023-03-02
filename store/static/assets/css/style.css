@@ -113,10 +113,11 @@ h1 {
 }*/
 .btn, .btn-dounloed, .btn-secon, .btn-primary {
   padding: 0.8rem 1.6rem;
-  border-radius: 6px;
+  border-radius: 10px;
   line-height: 1;
   font-size: 0.9rem;
   font-weight: 600;
+  width: 290px;
   cursor: pointer;
   border: none;
   outline: none;
@@ -124,27 +125,29 @@ h1 {
 @media only screen and (max-width: 576px) {
   .btn, .btn-dounloed, .btn-secon, .btn-primary {
     margin-bottom: 15px;
+    padding: 0.8rem 0.5rem;
+    width: 230px;
   }
 }
 .btn-primary {
-  background-color: green;
+  background-color: rgb(18, 19, 22) !important;
   color: white;
 }
 .btn-primary:hover {
-  background-color: rgb(244, 245, 240);
+  background-color: rgb(219, 234, 9);
 }
 .btn-secon {
-  border: 2px solid #fdfdf7;
+  border: 2px solid #359feb;
   background-color: white;
-  color: #fdfdf7;
+  color: #359feb;
 }
 .btn-secon:hover {
-  background-color: rgb(244, 245, 240);
+  background-color: rgb(219, 234, 9);
   color: white;
 }
 .btn-dounloed {
   border: 2px solid white;
-  background-color: #fdfdf7;
+  background-color: #359feb;
   color: white;
 }
 .btn-dounloed:hover {
@@ -155,27 +158,99 @@ h1 {
 }
 
 .btn-success:hover {
-  background-color: rgb(244, 245, 240);
+  background-color: rgb(219, 234, 9);
 }
 
+.list-group-item:active {
+  background-color: #000000 !important;
+  border-color: red;
+}
+
+/*@media (max-width: 576px) {
+
+
+  }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  
+
+}*/
 .form-control {
   padding: 0.8rem 1.5rem;
   width: 100%;
-  background-color: rgb(233, 231, 231);
   border: none;
   border-radius: 20px;
   outline: none;
 }
 .form-control:focus {
-  border: 2px solid #fdfdf7;
+  border: 2px solid #359feb;
+  box-shadow: none;
 }
 
 textarea {
   resize: none;
 }
 
+.my-form {
+  border-radius: 20px !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .p-3 {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.main-contact-text {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main-contact {
+  margin-top: 0 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .text-center > img {
+    height: 100px !important;
+  }
+}
+
+.d-text {
+  margin-bottom: 0 !important;
+}
+
 .card {
-  margin: 40px;
+  -webkit-box-shadow: -1px -1px 11px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 11px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 11px 3px rgba(0, 0, 0, 0.75);
 }
 
 /*@media (max-width: 576px) {
@@ -207,11 +282,56 @@ textarea {
 
 }*/
 .main-area {
-  width: 100%;
-  height: 900px;
-  background-image: url("../images/sharon-pittaway-KUZnfk-2DSQ-unsplash.jpg");
+  background-image: linear-gradient(to right top, #219b21, #4ba41e, #5ee106, #a0d618, #f8ee07);
   background-repeat: no-repeat;
-  background-size: cover;
+}
+.main-area_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+@media only screen and (max-width: 576px) {
+  .main-area_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+}
+.main-area_content-text {
+  color: white;
+}
+@media only screen and (max-width: 576px) {
+  .main-area_content-text > .find {
+    text-align: center;
+  }
+}
+.main-area_content-text > h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+@media only screen and (max-width: 576px) {
+  .main-area_content-text > h1 {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.main-area_content-text > p {
+  font-weight: 600;
+}
+.main-area-images > p {
+  margin-bottom: 0px;
+}
+.main-area-images-img {
+  width: 500px;
+  height: 500px;
+}
+@media only screen and (max-width: 576px) {
+  .main-area-images-img {
+    width: 300px;
+    height: 300px;
+  }
 }
 .main-area > h1 {
   color: aliceblue;
@@ -228,6 +348,84 @@ textarea {
 
 .b1 {
   margin-top: 40px;
+}
+
+.icon {
+  padding-left: 10px;
+}
+
+.icon:hover {
+  color: rgb(218, 7, 7);
+}
+
+/*@media (max-width: 576px) {
+
+
+  }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  
+
+}*/
+.about-area {
+  padding: 8rem 20rem;
+  background-color: #23bf70;
+  align-items: center;
+  margin-top: 11rem;
+  color: white;
+}
+@media only screen and (max-width: 576px) {
+  .about-area {
+    padding: 4rem 2rem;
+    flex-direction: column;
+    margin-top: 0;
+  }
+}
+.about-area--img {
+  width: 35rem;
+}
+.about-area--contents {
+  color: white;
+}
+.about-area--contents h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 576px) {
+  .about-area--contents h2 {
+    font-size: 2rem;
+  }
+}
+.about-area--contents p {
+  line-height: 2;
+  color: #edd9de;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+@media only screen and (max-width: 576px) {
+  .about-area--contents p {
+    font-size: 0.8rem;
+  }
 }
 
 /*@media (max-width: 576px) {
@@ -259,8 +457,17 @@ textarea {
 
 }*/
 .navbar {
-  background-color: rgb(12, 150, 230);
+  background-color: #23bf70;
   color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: white !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -274,16 +481,36 @@ textarea {
   font-weight: 600;
 }
 
-a:hover {
-  background-color: green;
+.nav-link:hover {
+  background-color: black;
   margin: auto;
   border-radius: 0.3rem;
+}
+
+.custom-shape-divider-bottom-1677515949 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677515949 svg {
+  position: relative;
+  display: block;
+  width: calc(168% + 1.3px);
+  height: 153px;
+}
+
+.custom-shape-divider-bottom-1677515949 .shape-fill {
+  fill: #FFFFFF;
 }
 
 footer {
   padding: 2rem 0;
   text-align: center;
-  background-color: rgb(238, 3, 3);
+  background-color: #23bf70;
   color: white;
 }
 footer p {

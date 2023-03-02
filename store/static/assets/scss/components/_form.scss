@@ -1,20 +1,67 @@
 @use "../abstract/function" as func;
 @use "../abstract/variable" as var;
+@use "../abstract/mixiens" as mixc;
 
 .form-control {
     padding: 0.8rem 1.5rem;
     width: 100%;
-    background-color: rgb(233, 231, 231);
+    // background-color: var.$form-color !important;
     border: none;
     border-radius: 20px;
     outline: none;
+    // -webkit-box-shadow: -4px 1px 12px 2px rgba(0, 0, 0, 0.75);
+    // -moz-box-shadow: -4px 1px 12px 2px rgba(0, 0, 0, 0.75);
+    // box-shadow: -4px 1px 12px 2px rgba(0, 0, 0, 0.75);
 
     &:focus {
         border: 2px solid func.theme-color();
+        box-shadow: none;
     }
 
 }
 
 textarea {
     resize: none;
+}
+
+.my-form {
+    border-radius: 20px !important;
+    // 
+
+    // background-color: white;
+}
+
+.p-3 {
+    @include mixc.responsive(xs) {
+        padding: 0 !important;
+    }
+}
+
+.container {
+    @include mixc.responsive(xs) {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+.main-contact-text {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-contact {
+    // background-color: gray;
+    margin-top: 0 !important;
+
+}
+
+.text-center>img {
+    @include mixc.responsive(xs) {
+        height: 100px !important;
+    }
+}
+
+.d-text {
+    margin-bottom: 0 !important;
 }

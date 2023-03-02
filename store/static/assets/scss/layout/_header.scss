@@ -73,10 +73,19 @@
 // }
 //old style end
 .navbar {
-    background-color: rgb(12, 150, 230);
+    background-color: var.$color-navfooter;
+    ;
     color: white;
 }
 
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    color: white !important;
+}
 
 .navbar-nav .nav-link.active {
     color: white;
@@ -94,8 +103,29 @@
 //     color: white;
 //     background-color: green;
 // }
-a:hover {
-    background-color: green;
+.nav-link:hover {
+    background-color: var.$btn-hover;
     margin: auto;
     border-radius: 0.3rem;
+}
+
+
+.custom-shape-divider-bottom-1677515949 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677515949 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1677515949 .shape-fill {
+    fill: #FFFFFF;
 }
