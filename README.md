@@ -23,6 +23,7 @@
 </ul><ul>
 <li>Font Awesome</li>
 </ul><h2>Screenshots</h2>
+![project me](https://github.com/HARISHKUMAR023/Eshop/blob/master/Screenshot%202023-03-02%20191200.png)
 <hr><p><img src="../static/assets/images/project.png" alt=""></p><h2>Setup</h2>
 <hr><p>django,
 bootstrap</p><h5>Steps</h5><ul>
