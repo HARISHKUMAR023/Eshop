@@ -22,7 +22,8 @@
 <li>Bootstrap</li>
 </ul><ul>
 <li>Font Awesome</li>
-</ul><h2>Screenshots</h2>
+</ul><h2>Screen![Screenshot 2023-03-02 191200](https://user-images.githubusercontent.com/88447060/222450702-b8452a6e-6456-47f2-a357-de7e45d73079.png)
+shots</h2>
 ![project me](https://github.com/HARISHKUMAR023/Eshop/blob/master/Screenshot%202023-03-02%20191200.png)
 <hr><p><img src="../static/assets/images/project.png" alt=""></p><h2>Setup</h2>
 <hr><p>django,
